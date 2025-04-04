@@ -54,7 +54,7 @@ class ModelFreeCollisionDetector():
                     only set when [return_empty_grasp] is True
                 return_ious: [bool]
                     if True, return global collision iou and part collision ious
-                    
+
             Output:
                 collision_mask: [numpy.ndarray, (M,), numpy.bool]
                     True implies collision

@@ -10,7 +10,7 @@ sys.path.append(ROOT_DIR)
 
 import pointnet2.pytorch_utils as pt_utils
 from pointnet2.pointnet2_utils import CylinderQueryAndGroup
-from loss_utils import generate_grasp_views, batch_viewpoint_params_to_matrix
+from models.loss_utils import generate_grasp_views, batch_viewpoint_params_to_matrix
 
 
 class GraspableNet(nn.Module):
